@@ -20,6 +20,7 @@ import 'regenerator-runtime/runtime';
 // https://forkify-api.herokuapp.com/v2
 
 /*
+=== List of functionalities that can be added later! === 
 TODO: Display number of pages
 TODO: Sort search results by duration or number of ingredients
 TODO: Perform ingredient validation
