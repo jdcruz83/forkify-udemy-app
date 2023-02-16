@@ -1,14 +1,15 @@
 import * as model from './model.js';
 import { MODAL_CLOSE_SEC } from './config.js';
-import recipeView from './views/recipeView.js';
-import searchView from './views/searchView.js';
-import resultsView from './views/resultsView.js';
-import paginationView from './views/paginationView.js';
-import bookmarksView from './views/bookmarksView.js';
-import addRecipeView from './views/addRecipeView.js';
+import { recipeView } from './views/recipeView.js';
+import { searchView } from './views/searchView.js';
+import { resultsView } from './views/resultsView.js';
+import { paginationView } from './views/paginationView.js';
+import { bookmarksView } from './views/bookmarksView.js';
+import { addRecipeView } from './views/addRecipeView.js';
 
 import 'core-js/stable';
 import 'regenerator-runtime/runtime';
+import { async } from 'regenerator-runtime';
 
 // import icons from '../img/icons.svg'; // Parcel 1.*
 // import icons from 'url:../img/icons.svg'; // Parcel 2.*
