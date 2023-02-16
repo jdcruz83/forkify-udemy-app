@@ -4,7 +4,7 @@
     "description": "Recipe search site",
     "scripts": {
         "start": "parcel index.html",
-        "build": "parcel build index.html"
+        "build": "parcel build index.html --dist-dir ./dist"
     },
     "repository": {
         "type": "git",
@@ -19,5 +19,8 @@
     "devDependencies": {
         "@parcel/transformer-sass": "^2.8.3",
         "parcel": "^2.8.3"
+    },
+    "dependencies": {
+        "fracty": "^1.0.11"
     }
 }

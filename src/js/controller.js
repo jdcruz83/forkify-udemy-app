@@ -7,9 +7,9 @@ import { paginationView } from './views/paginationView.js';
 import { bookmarksView } from './views/bookmarksView.js';
 import { addRecipeView } from './views/addRecipeView.js';
 
-import 'core-js/stable';
-import 'regenerator-runtime/runtime';
-import { async } from 'regenerator-runtime';
+// import 'core-js/stable';
+// import 'regenerator-runtime/runtime';
+// import { async } from 'regenerator-runtime';
 
 // import icons from '../img/icons.svg'; // Parcel 1.*
 // import icons from 'url:../img/icons.svg'; // Parcel 2.*
@@ -20,16 +20,14 @@ import { async } from 'regenerator-runtime';
 
 // https://forkify-api.herokuapp.com/v2
 
-/*
-=== List of functionalities that can be added later! === 
-TODO: Display number of pages
-TODO: Sort search results by duration or number of ingredients
-TODO: Perform ingredient validation
-TODO: Improve recipe ingredient input: multiple fields and mora than 6 ingredients
-TODO: Shopping list feature
-TODO: Weekly meal planning feature: Assign to the next 7 days and show on weekly calendar
-TODO: Get nutrition data on each ingredient;
-*/
+// === List of functionalities that can be added later! ===
+// TODO: Display number of pages
+// TODO: Sort search results by duration or number of ingredients
+// TODO: Perform ingredient validation
+// TODO: Improve recipe ingredient input: multiple fields and mora than 6 ingredients
+// TODO: Shopping list feature
+// TODO: Weekly meal planning feature: Assign to the next 7 days and show on weekly calendar
+// TODO: Get nutrition data on each ingredient;
 
 ///////////////////////////////////////
 const controlRecipes = async function () {
