@@ -1,7 +1,7 @@
 {
-    "name": "forkify",
+    "name": "forkify-udemy",
     "version": "1.0.0",
-    "description": "Recipe search",
+    "description": "Recipe search site",
     "scripts": {
         "start": "parcel index.html",
         "build": "parcel build index.html"
@@ -18,10 +18,6 @@
     "homepage": "https://github.com/jdcruz83/forkify-udemy-app#readme",
     "devDependencies": {
         "@parcel/transformer-sass": "^2.8.3",
-        "parcel": "^2.8.3",
-        "sass": "^1.58.1"
-    },
-    "dependencies": {
-        "fractional": "^1.0.0"
+        "parcel": "^2.8.3"
     }
 }

@@ -29,8 +29,6 @@ TODO: Improve recipe ingredient input: multiple fields and mora than 6 ingredien
 TODO: Shopping list feature
 TODO: Weekly meal planning feature: Assign to the next 7 days and show on weekly calendar
 TODO: Get nutrition data on each ingredient;
-
-
 */
 
 ///////////////////////////////////////
